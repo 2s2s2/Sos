@@ -1,0 +1,13 @@
+.section{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.section.-hero{
+	background-image: url(../img/bg image 1.jpg);
+}

@@ -1,0 +1,24 @@
+.title{
+	font-size: 80px;
+	color: var(--c--white);
+}
+
+.sub__title{
+	font-size: 24px;
+	color: var(--c--white);
+}
+
+.info{
+	font-size: 18px;
+	color: var(--c--white);
+}
+
+.info__title{
+	font-size: 36px;
+	color: var(--c--yellow);
+}
+
+.links{
+	font-size: 12px;
+	color: var(--c--white);
+}
