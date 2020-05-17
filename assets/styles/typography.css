@@ -1,24 +1,36 @@
-.title{
+.title {
 	font-size: 80px;
-	color: var(--c--white);
+	color: var(--c-white);
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
-.sub__title{
+.subtitle {
 	font-size: 24px;
-	color: var(--c--white);
+	color: var(--c-white);
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
-.info{
+.info {
 	font-size: 18px;
-	color: var(--c--white);
+	color: var(--c-white);
 }
 
-.info__title{
+.info__title {
 	font-size: 36px;
-	color: var(--c--yellow);
+	color: var(--c-yellow);
 }
 
-.links{
+.nav__link {
 	font-size: 12px;
-	color: var(--c--white);
+	color: var(--c-white);
+	margin-left: 20px;
+}
+
+.scroll__down {
+	color: var(--c-white);
+	margin-top: 0px;
 }

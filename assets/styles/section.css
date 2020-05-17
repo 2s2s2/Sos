@@ -1,4 +1,4 @@
-.section{
+.section {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -8,6 +8,23 @@
 	background-position: center;
 }
 
-.section.-hero{
-	background-image: url(../img/bg image 1.jpg);
+.section.-hero {
+	background-image: url("../img/bg image 1.jpg");
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.btn {
+	display: inline-block;
+	color: var(--c-black);
+	background: var(--c-yellow-gradient);
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+.scroll__down::before {
+	width: 20px;
+	height: 20px;
+	border: 20px solid transparent; 
+	border-top: 20px solid green;
 }
