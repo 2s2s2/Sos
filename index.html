@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/slider.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,12 +59,32 @@
 
 	<section class="section -about">
 		<div class="container">
-			<div class="content">
-				<h2 class="subtitle">What is sos?</h2>
-				<h2 class="title">Social battle royale game</h2>
-				<p class="info">Each round, <b>you</b> and <b>15</b> other contestants compete to escape deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run solo or form friendship with others to escape?</p>
-
-				<p class="info">Making the right decisions could be the difference between life and death.</p>
+			<div class="content -about">
+				<div class="content__left">
+					<div class="about">
+						<div class="about__header">
+							<h3 class="subtitle">What is sos?</h3>
+							<h2 class="title">Social battle royale game</h2>
+							<div class="stick"></div>
+						</div>
+						<div class="about__body">
+							<p class="info">Each round, <b>you</b> and <b>15</b> other contestants compete to escape deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run solo or form friendship with others to escape?</p>
+							<p class="info -bottom">Making the right decisions could be the difference between life and death.</p>
+						</div>
+					</div>	
+				</div>
+				<div class="slider">
+					<img src="./assets/img/beach.jpg" alt="" class="slider__item -three">
+					<img src="./assets/img/palms.png" alt="" class="slider__item -two">
+					<img src="./assets/img/totem.png" alt="" class="slider__item -one">
+					<div class="slider__controls">
+						<div class="slider__control -active"></div>
+						<div class="slider__control"></div>
+						<div class="slider__control"></div>
+						<div class="slider__control"></div>
+						<div class="slider__control"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

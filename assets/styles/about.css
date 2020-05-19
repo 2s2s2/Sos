@@ -1,0 +1,17 @@
+.section.-about {
+	background-image: url("../img/bg image 2.jpg");
+	position: relative;
+}
+
+.content.-about{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content__left{
+	width: 50%;
+}
+
+.info.-bottom{
+	margin-top: 50px;
+}

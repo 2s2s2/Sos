@@ -1,0 +1,33 @@
+.slider__item{
+	position: absolute;
+	width: 400px;
+}
+
+.slider__item.-one{
+	right: 120px;
+	height: 600px;
+	bottom: 100px;
+}
+
+.slider__item.-two{
+	right: 100px;
+	height: 550px;
+	bottom: 125px;
+}
+
+.slider__item.-three{
+	right: 80px;
+	height: 500px;
+	bottom: 150px;
+}
+
+.slider__control{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border-color: var(--c-white);
+}
+
+.slider__control.-active{
+	background-origin: var(--c-white);
+}
