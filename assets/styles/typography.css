@@ -27,7 +27,11 @@
 .nav__link {
 	font-size: 12px;
 	color: var(--c-white);
-	margin-left: 20px;
+	margin-left: 10px;
+}
+
+.lang__link{
+	color: var(--c-white);
 }
 
 .scroll__down {

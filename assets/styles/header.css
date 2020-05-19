@@ -4,3 +4,19 @@
 	justify-content: space-between;
 	text-transform: uppercase;
 }
+
+.header__logo{
+	margin-top: 10px;
+	width: 55px;
+	height: 55px;
+}
+
+@media screen and (max-width: 450px) {
+	.nav__link{
+		display: none;
+	}
+
+	.header__partner{
+		display: none;
+	}
+}

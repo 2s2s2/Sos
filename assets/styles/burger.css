@@ -1,0 +1,48 @@
+.burger {
+	display: none;
+	position: relative;
+	width: 30px;
+	height: 30px;
+}
+
+.burger i {
+	height: 2px;
+	width: 20px;
+	background-color: white;
+	position: absolute;
+	transition: transform .6s;
+}
+
+.burger i:first-child {
+	top: 10px;
+}
+
+.burger i:nth-child(2) {
+	top: 20px;
+}
+
+.burger i:last-child {
+	top: 30px;
+	width: 10px;
+}
+
+.burger:hover i:first-child {
+	transform: rotate(45deg);
+	top: 20px;		
+}
+
+.burger:hover i:nth-child(2) {
+	display: none;
+}
+
+.burger:hover i:last-child {
+	transform: rotate(-45deg);
+	top: 20px;
+	width: 20px;
+}
+
+@media screen and (max-width: 449px) {
+	.burger {
+		display: block;
+	}
+}

@@ -10,6 +10,7 @@
 
 .section.-hero {
 	background-image: url("../img/bg image 1.jpg");
+	background-size: 101%;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -20,11 +21,37 @@
 	background: var(--c-yellow-gradient);
 	border-radius: 4px;
 	padding: 10px 20px;
+	margin-left: 450px;
+	margin-top: 20px;
 }
 
-.scroll__down::before {
-	width: 20px;
-	height: 20px;
-	border: 20px solid transparent; 
-	border-top: 20px solid green;
+.logo {
+	margin-right: 10px;	
+}
+
+@media screen and (max-width: 450px) {
+	.section.-hero{
+		background-size: 1200px;
+		background-position: -350px -100px;
+	}
+
+	.btn{
+		margin-left: 25px;
+	}
+
+	.title{
+		font-size: 33px;
+	}
+
+	.subtitle{
+		font-size: 18px;
+	}
+
+	.scroll__down{
+		
+	}
+}
+
+.section.-about {
+	background-image: url("../img/bg image 2.jpg");
 }
