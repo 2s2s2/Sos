@@ -21,13 +21,30 @@
 	bottom: 150px;
 }
 
+.slider__controls{
+	position: absolute;
+	bottom: -15px;
+	right: 290px;
+	transform: rotate(-90deg);
+}
+
 .slider__control{
 	width: 14px;
 	height: 14px;
 	border-radius: 50%;
-	border-color: var(--c-white);
+	border: 2px solid var(--c-white);
+	margin-bottom: 50px;
 }
 
 .slider__control.-active{
-	background-origin: var(--c-white);
+	background-color: var(--c-white);
+}
+
+.slider__triangle{
+	position: absolute;
+	top: 333px;
+	right: 30px;
+	border: 20px solid
+	transparent; 
+	border-left: 20px solid var(--c-white);
 }

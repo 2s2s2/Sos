@@ -15,3 +15,18 @@
 .info.-bottom{
 	margin-top: 50px;
 }
+
+.line{
+	position: absolute;
+	height: 3px;
+	width: 900px;
+	background-color: var(--c-white);
+	bottom: 355px;
+	z-index: 1;
+}	
+
+@media screen and (max-width: 450px){
+	.about{
+		flex-direction: column;
+	}
+}
