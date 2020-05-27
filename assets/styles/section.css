@@ -36,7 +36,7 @@
 	}
 
 	.btn{
-		margin-left: 25px;
+		margin-left: 50px;
 	}
 
 	.title{
@@ -50,4 +50,20 @@
 	.scroll__down{
 		
 	}
+}
+
+.section.-features{
+	background-image: url("../img/Group.jpg");
+}
+
+.section.-syst__req{
+	background-image: url("../img/Group 2.jpg");
+}
+
+.section.-press__quotes{
+	background-image: url("../img/bg5.png");
+}
+
+.section.-subscribe{
+	background-image: url("../img/bg6.jpg");
 }

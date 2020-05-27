@@ -4,6 +4,7 @@
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
 	letter-spacing: 3px;
+	margin-bottom: 30px;
 }
 
 .subtitle {
@@ -30,11 +31,32 @@
 	margin-left: 10px;
 }
 
-.lang__link{
+.lang__link {
 	color: var(--c-white);
 }
 
 .scroll__down {
 	color: var(--c-white);
 	margin-top: 0px;
+}
+
+.features__title {
+	font-family: Bebas Neue;
+	letter-spacing: 2px;
+	font-size: 36px;
+	color: var(--c-yellow);
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--c-white);
+}
+
+.content__info {
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--c-white);
 }

@@ -1,0 +1,9 @@
+.content.-features {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.content.-press__quotes {
+	display: flex;
+	justify-content: space-between;
+}
