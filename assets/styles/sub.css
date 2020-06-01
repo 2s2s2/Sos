@@ -1,0 +1,31 @@
+.content.-sub {
+	width: 60%;
+}
+
+.section.-subscribe {
+	display: flex;
+	justify-content: ;
+	align-items: center;
+}
+
+.subscribe__text {
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--c-white);
+}
+
+.email__title {
+	font-size: 14px;
+	line-height: 19px;
+	color: var(--c-white);
+	opacity: 0.5;
+}
+
+.email {
+	background-color: rgba(255, 255, 255, 0.08);
+	width: 360px;
+}
+
+.email__adress {
+	color: var(--c-yellow);
+}

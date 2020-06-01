@@ -1,0 +1,84 @@
+.reviews {
+	width: 60%;
+	margin-left: 50px;
+}
+
+.content__left.-quotes {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.review {
+	position: relative;
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.review__profile {
+	display: flex;
+	flex-direction: row;
+}
+
+.review__social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.name {
+	margin-left: 20px;
+	color: var(--c-yellow);
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.profession {
+	color: var(--c-white);
+	opacity: 0.5;
+	font-size: 18px;
+}
+
+.review__text{
+	font-size: 18px;
+	color: var(--c-white);
+	margin-top: 20px;
+}
+
+.review__date {
+	color: var(--c-white);
+	opacity: 0.5;
+	margin-top: 10px;
+}
+
+.avatar {
+	height: 63px;
+	width: 63px;
+}
+
+.twitter {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.btn.-quotes {
+	width: 222px;
+	margin-top: 50px;
+	margin-left: -1px;
+}
+
+@media screen and (max-width: 449px) {
+	.section.-press__quotes {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}

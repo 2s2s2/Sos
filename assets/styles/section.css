@@ -62,6 +62,8 @@
 
 .section.-press__quotes{
 	background-image: url("../img/bg5.png");
+	display: flex;
+	justify-content: space-between;
 }
 
 .section.-subscribe{

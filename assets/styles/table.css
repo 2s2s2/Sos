@@ -4,6 +4,10 @@
 	text-transform: uppercase;
 }
 
+.table__row {
+	display: flex;
+}
+
 .table__text {
 	font-size: 18px;
 	color: var(--c-white);
@@ -30,12 +34,12 @@
 	width: 50%;
 }
 
-@media screen and (max-width: 450px) {
-	.table{
-		min-width: 100%;
+@media screen and (max-width: 799px) {
+	.table {
+		width: calc(100% - 10px);
 	}
 
-	.table__cell{
-		width: 50%;
+	.table__cell {
+		width: calc(50% - 10px);
 	}
 }
