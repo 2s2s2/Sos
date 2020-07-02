@@ -4,7 +4,7 @@
 
 .section.-subscribe {
 	display: flex;
-	justify-content: ;
+	justify-content: flex-start;
 	align-items: center;
 }
 
@@ -24,8 +24,15 @@
 .email {
 	background-color: rgba(255, 255, 255, 0.08);
 	width: 360px;
+	margin-top: 0px;
 }
 
 .email__adress {
 	color: var(--c-yellow);
+}
+
+.content.-sub {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }

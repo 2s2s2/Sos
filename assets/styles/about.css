@@ -25,8 +25,17 @@
 	z-index: 1;
 }	
 
-.about__header{
-	pad
+.about__header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.about__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 
 @media screen and (max-width: 450px){

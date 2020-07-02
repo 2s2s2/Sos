@@ -6,6 +6,7 @@
 
 .table__row {
 	display: flex;
+	width: 100%;
 }
 
 .table__text {
@@ -17,7 +18,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
-	width: 300px;
+	width: 50%;
 	height: 150px;
 	border: 1px solid var(--c-gray-dark);
 }
